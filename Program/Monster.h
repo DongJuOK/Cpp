@@ -7,7 +7,11 @@ protected:
 	int attack;
 	int defense;
 
+	const char * name;
+
 public:
 	void Stat();
+
+	virtual void Describe();
 };
 

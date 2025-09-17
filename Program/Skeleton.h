@@ -6,5 +6,7 @@ class Skeleton : public Monster
 {
 public:
 	Skeleton();
+
+	void Describe();
 };
 

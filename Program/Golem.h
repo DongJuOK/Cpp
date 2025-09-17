@@ -6,5 +6,7 @@ class Golem : public Monster
 {
 public:
 	Golem();
+
+	void Describe();
 };
 
