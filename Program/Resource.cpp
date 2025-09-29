@@ -6,10 +6,11 @@ Resource::Resource()
 	cout << "Created Resource" << endl;
 }
 
-void Resource::Share(Resource clone)
+void Resource::Share(const shared_ptr<Resource> & reference)
 {
-
+	resource = reference;
 }
+
 
 Resource::~Resource()
 {
