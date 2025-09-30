@@ -1,13 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Cpp\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Cpp\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{055C66D8-FCE9-4EE1-AF96-2100C67626D3}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Cpp\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{055C66D8-FCE9-4EE1-AF96-2100C67626D3}|Program.vcxproj|C:\\Users\\user\\Desktop\\Cpp\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{055C66D8-FCE9-4EE1-AF96-2100C67626D3}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{055C66D8-FCE9-4EE1-AF96-2100C67626D3}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Cpp\\Program\\stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{6AD90A21-435D-4DFA-B244-D47EDCA85E06}|..\\Class10th (Linear Container)\\Class10th (Linear Container).vcxproj|C:\\Users\\user\\Desktop\\Cpp\\Class10th (Linear Container)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055C66D8-FCE9-4EE1-AF96-2100C67626D3}|Program.vcxproj|C:\\Users\\user\\Desktop\\Cpp\\Program\\stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{055C66D8-FCE9-4EE1-AF96-2100C67626D3}|Program.vcxproj|solutionrelative:stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -18,28 +21,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 206,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Cpp\\Class10th (Linear Container)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class10th (Linear Container)\\Source.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Cpp\\Class10th (Linear Container)\\Source.cpp",
+              "RelativeToolTip": "..\\Class10th (Linear Container)\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-30T10:02:00.538Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Cpp\\Program\\Program.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Cpp\\Program\\Program.cpp",
               "RelativeDocumentMoniker": "Program.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Cpp\\Program\\Program.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Cpp\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADQAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-16T10:04:46.839Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "stdafx.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Cpp\\Program\\stdafx.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Cpp\\Program\\stdafx.h",
               "RelativeDocumentMoniker": "stdafx.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Cpp\\Program\\stdafx.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Cpp\\Program\\stdafx.h",
               "RelativeToolTip": "stdafx.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
