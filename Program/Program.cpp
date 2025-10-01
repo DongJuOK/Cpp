@@ -1,52 +1,31 @@
 ﻿#include "stdafx.h"
-#include <stack>
-#include <queue>
+#include <unordered_set>
 
 int main()
 {
-#pragma region 컨테이너 어댑터
-	// 기존 컨테이너의 인터페이스를 제한하여 만든 기능이
-	// 제한되거나 변경된 컨테이너입니다.
+#pragma region 연관 컨테이너
+	// 특정한 방식으로 데이터를 저장하고 검색하는 컨테이너입니다.
 
-#pragma region stack container
+	std::unordered_set<const char*> unordered_set;
 
-	//  std::stack<int> stack;
-	//  
-	//  stack.push(10);
-	//  stack.push(20);
-	//  stack.push(30);
-	//  stack.push(40);
-	//  stack.push(50);
-	//  
-	//  while (stack.empty() == false)
-	//  {
-	//  	cout << stack.top() << endl;
-	//  
-	//  	stack.pop();
-	//  }
+	unordered_set.reserve(16);
 
-#pragma endregion
+	unordered_set.max_load_factor(2.0);
 
-#pragma region queue container
+	unordered_set.insert("Trinity Force");
+	unordered_set.insert("Sundered Sky");
+	unordered_set.insert("Zhonya's Hourglass");
 
-	std::queue<int> queue;
+	unordered_set.insert("Ninja Tabi");
+	unordered_set.insert("Death's Dance");
+	unordered_set.insert("Blade of the Ruined King");
 
-	queue.push(10);
-	queue.push(20);
-	queue.push(30);
-	queue.push(40);
-	queue.push(50);
+	unordered_set.insert("Immortal Shieldbow");
+	unordered_set.insert("Berserker's Greaves");
+	unordered_set.insert("Guardian Angel");
 
-	const int & size = queue.size();
-
-	for (int i = 0; i < size; i++)
-	{
-		cout << queue.front() << endl;
-		queue.pop();
-	}
-
-#pragma endregion
-
+	cout << "Load Factor : " << unordered_set.load_factor() << endl;
+	cout << "Bucket Count : " << unordered_set.bucket_count() << endl;
 
 #pragma endregion
 
