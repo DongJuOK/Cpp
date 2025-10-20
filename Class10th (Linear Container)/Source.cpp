@@ -1,6 +1,7 @@
 ﻿#include "../Program/stdafx.h"
 #include <vector>
 #include <list>
+#include <deque>
 
 int main()
 {
@@ -35,23 +36,27 @@ int main()
 
 #pragma region list container
 
-	std::list<int> list;
-
-	list.push_back(20);
-	list.push_back(30);
-
-	list.push_front(10);
-
-	list.pop_front();
-
-	list.push_front(1);
-
-	list.remove(20);
-
-	for (const int& i : list)
-	{
-		cout << list[i] << endl;
-	}
+	//  std::list<int> list;
+	//  
+	//  list.push_back(20);
+	//  list.push_back(30);
+	//  
+	//  list.push_front(10);
+	//  
+	//  list.pop_front();
+	//  
+	//  list.push_front(1);
+	//  
+	//  list.remove(20);
+	//  
+	//  for (const int & element : list)
+	//  {
+	//  	cout << element << endl;
+	//  }
+	//  
+	//  list.assign(3, 5);
+	//  
+	//  cout << "List Size : " << list.size() << endl;
 
 #pragma endregion
 
